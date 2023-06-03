@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailRiwayatPemesanan">
+
+    <TextView
+        android:id="@+id/tvID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="ID Aktivity"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvNilaiID"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvID"/>
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Nama Penyewa"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilaiID"/>
+
+    <TextView
+        android:id="@+id/tvNilaiNama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="Pember"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNama" />
+
+    <TextView
+        android:id="@+id/tvJenis"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Jenis Mobil"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/tvNilaiNama"
+        app:layout_constraintStart_toStartOf="@+id/tvNilaiNama"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilaiNama" />
+
+    <TextView
+        android:id="@+id/tvNilaiJenis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Brio"
+        app:layout_constraintStart_toStartOf="@+id/tvJenis"
+        app:layout_constraintTop_toBottomOf="@+id/tvJenis" />
+
+    <TextView
+        android:id="@+id/tvLamaSewa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Lama Sewa"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvNilaiJenis"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilaiJenis" />
+
+    <TextView
+        android:id="@+id/tvNilaiLamaSewa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Brio"
+        app:layout_constraintStart_toStartOf="@+id/tvLamaSewa"
+        app:layout_constraintTop_toBottomOf="@+id/tvLamaSewa" />
+
+    <TextView
+        android:id="@+id/tvDurasi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Durasi Sewa"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvNilaiLamaSewa"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilaiLamaSewa" />
+
+    <TextView
+        android:id="@+id/tvNilaiMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="2023-12-10- 23:10"
+        app:layout_constraintStart_toStartOf="@+id/tvDurasi"
+        app:layout_constraintTop_toBottomOf="@+id/tvDurasi" />
+
+    <TextView
+        android:id="@+id/tvStrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="-"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNilaiMulai"
+        app:layout_constraintStart_toEndOf="@+id/tvNilaiMulai"
+        app:layout_constraintTop_toTopOf="@+id/tvNilaiMulai" />
+
+    <TextView
+        android:id="@+id/tvNilaiSelesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="2023-12-10- 23:10"
+        app:layout_constraintBottom_toBottomOf="@+id/tvStrip"
+        app:layout_constraintStart_toEndOf="@+id/tvStrip"
+        app:layout_constraintTop_toTopOf="@+id/tvStrip" />
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Total Harga"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvNilaiMulai"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilaiMulai" />
+
+    <TextView
+        android:id="@+id/tvNilaiTotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Meeting Bangkit"
+        app:layout_constraintStart_toStartOf="@+id/tvTotal"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotal" />
+
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Status Penyewaan"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/tvNilaiTotal"
+        app:layout_constraintTop_toBottomOf="@+id/tvNilaiTotal" />
+
+    <TextView
+        android:id="@+id/tvNilaiStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Aktivitas Sudah Selesai"
+        app:layout_constraintStart_toStartOf="@+id/tvStatus"
+        app:layout_constraintTop_toBottomOf="@+id/tvStatus" />
+</androidx.constraintlayout.widget.ConstraintLayout>

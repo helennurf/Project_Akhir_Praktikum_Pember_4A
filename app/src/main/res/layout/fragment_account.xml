@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".FragmentAccount">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@color/teal_200"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idjudul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="115dp"
+            android:layout_marginTop="20dp"
+            android:text="Akun Saya"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/idfoto"
+            android:layout_width="167dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="95dp"
+            android:padding="0dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/idnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="300dp"
+            android:text="Nama Anggota :"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/idNilaiNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idnama"
+            android:layout_alignStart="@+id/idnama"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/robotomono_italic_variablefont_wght"
+            android:text="Helen Nur Fatmala (21-049)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idNilaiNama"
+            android:layout_alignStart="@+id/idNilaiNama"
+            android:layout_marginTop="11dp"
+            android:fontFamily="@font/robotomono_italic_variablefont_wght"
+            android:text="Achmad Bagus Ashrory (21-115)"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="normal"
+            tools:ignore="RtlCompat" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

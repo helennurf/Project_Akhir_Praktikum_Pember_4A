@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ProjectAkhir</string>
+    <string-array name="mobil_nama">
+        <item>Toyota Alphard 2022</item>
+        <item>Honda Brio 2021</item>
+        <item>Honda BRV 2023</item>
+        <item>Daihatsu Ayla 2023</item>
+        <item>Kijang Innova 2022</item>
+        <item>Toyota Yaris 2021</item>
+    </string-array>
+    <string-array name="mobil_kapasitas">
+        <item>8-9 Orang</item>
+        <item>7-8 Orang</item>
+        <item>8-9 Orang</item>
+        <item>6-7 Orang</item>
+        <item>8-9 Orang</item>
+        <item>6-7 Orang</item>
+    </string-array>
+    <string-array name="mobil_warna">
+        <item>Hitam</item>
+        <item>Putih</item>
+        <item>Putih</item>
+        <item>Merah</item>
+        <item>Silver</item>
+        <item>Kuning</item>
+    </string-array>
+    <string-array name="mobil_deskripsi">
+        <item>Toyota Alphard 2022 adalah sebuah kendaraan minivan mewah yang menghadirkan kombinasi sempurna antara kenyamanan, kemewahan, dan performa. Dengan desain eksterior yang elegan dan modern, Alphard menonjolkan kesan mewah melalui garis-garis halus dan gril depan yang mencolok. Di dalamnya, Alphard menawarkan ruang kabin yang luas dan nyaman dengan kursi yang empuk serta berbagai fitur canggih.</item>
+        <item>Honda Brio 2021 adalah mobil kompak yang menghadirkan gaya yang menyegarkan dan performa yang handal. Dengan desain yang modern dan lincah, Brio menampilkan karakter yang berani dengan garis-garis tajam dan gril depan yang menarik. Di dalamnya, Brio menawarkan ruang kabin yang lapang dan nyaman, dilengkapi dengan fitur-fitur mutakhir seperti sistem infotainment yang terintegrasi, koneksi Bluetooth, dan sistem navigasi.</item>
+        <item>Honda BRV 2023 adalah SUV yang menawarkan kenyamanan dan fleksibilitas untuk keluarga. Dengan desain yang sporty dan modern, BRV dilengkapi dengan fitur-fitur canggih dan ruang kabin yang luas. Performa yang tangguh dan efisiensi bahan bakar yang baik membuatnya menjadi pilihan yang sempurna untuk petualangan sehari-hari.</item>
+        <item>Daihatsu Ayla 2023 adalah mobil kompak yang mengombinasikan desain modern, kenyamanan, dan efisiensi tinggi. Dengan fitur-fitur praktis dan performa yang responsif, Ayla menjadi solusi ideal untuk mobilitas perkotaan. Desain yang stylish, ruang kabin yang luas, dan teknologi canggih membuatnya menjadi pilihan yang sempurna untuk gaya hidup aktif dan dinamis.</item>
+        <item>Kijang Innova 2022 adalah kendaraan MPV yang ikonik dengan gaya yang elegan dan performa yang tangguh. Dengan ruang kabin yang luas, fitur-fitur modern, dan kehandalan Toyota, Innova memberikan kenyamanan dan kepraktisan untuk keluarga dan perjalanan jarak jauh. Kombinasi sempurna antara keindahan, fungsionalitas, dan keamanan.</item>
+        <item>Toyota Yaris 2021 adalah mobil kompak yang memikat dengan desain yang modern dan dinamis. Menawarkan kinerja tangguh dan efisiensi bahan bakar yang luar biasa, Yaris juga dilengkapi dengan fitur-fitur canggih dan interior yang nyaman. Sebagai pilihan yang andal dan gaya, Yaris memberikan pengalaman mengemudi yang memuaskan dan bergaya bagi para pengendara.</item>
+    </string-array>
+    <string-array name="transaksi">
+        <item>Pemesanan</item>
+        <item>Riwayat Pemesanan</item>
+    </string-array>
+</resources>

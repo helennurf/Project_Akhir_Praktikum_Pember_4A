@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ActivityCardTransaksi">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/tvNama"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Nama"
+            android:textColor="@color/black"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNilaiNama"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Helen"
+            app:layout_constraintEnd_toEndOf="@+id/tvNama"
+            app:layout_constraintStart_toStartOf="@+id/tvNama"
+            app:layout_constraintTop_toBottomOf="@+id/tvNama" />
+
+        <TextView
+            android:id="@+id/tvJenis"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Jenis Mobil"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/tvNilaiNama"
+            app:layout_constraintStart_toStartOf="@+id/tvNilaiNama"
+            app:layout_constraintTop_toBottomOf="@+id/tvNilaiNama" />
+
+        <TextView
+            android:id="@+id/tvNilaiJenis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Honda Brio"
+            app:layout_constraintStart_toStartOf="@+id/tvNilaiNama"
+            app:layout_constraintTop_toBottomOf="@+id/tvJenis" />
+
+        <TextView
+            android:id="@+id/tvLamaSewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Lama Sewa"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/tvNilaiJenis"
+            app:layout_constraintTop_toBottomOf="@+id/tvNilaiJenis" />
+
+        <TextView
+            android:id="@+id/tvNilaiLamaSewa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="1 Hari"
+            app:layout_constraintStart_toStartOf="@+id/tvLamaSewa"
+            app:layout_constraintTop_toBottomOf="@+id/tvLamaSewa" />
+
+        <TextView
+            android:id="@+id/tvMulai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Mulai Sewa"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvNilaiMulai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="29 Agustus 2023"
+            app:layout_constraintTop_toBottomOf="@+id/tvMulai"
+            app:layout_constraintEnd_toEndOf="@id/tvMulai"/>
+
+        <TextView
+            android:id="@+id/tvSelesai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Selesai Sewa"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/tvNilaiMulai"
+            app:layout_constraintTop_toBottomOf="@+id/tvNilaiMulai" />
+
+        <TextView
+            android:id="@+id/tvNilaiSelesai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="30 Agustus 2023"
+            app:layout_constraintEnd_toEndOf="@+id/tvSelesai"
+            app:layout_constraintTop_toBottomOf="@+id/tvSelesai"/>
+
+        <TextView
+            android:id="@+id/tvTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Total Harga"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="@+id/tvNilaiSelesai"
+            app:layout_constraintTop_toBottomOf="@+id/tvNilaiSelesai" />
+
+        <TextView
+            android:id="@+id/tvNilaiTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp"
+            android:text="500000"
+            app:layout_constraintEnd_toEndOf="@+id/tvTotal"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/tvTotal"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

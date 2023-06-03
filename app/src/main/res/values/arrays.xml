@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mobil_foto">
+        <item>@drawable/alpard</item>
+        <item>@drawable/brio</item>
+        <item>@drawable/brv</item>
+        <item>@drawable/honda</item>
+        <item>@drawable/innova</item>
+        <item>@drawable/toyota</item>
+    </array>
+</resources>
